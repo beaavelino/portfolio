@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+
+html, body{
+    font-family: 'EB Garamond', serif;
+    width: 100%;
+    height: 100%;
+}
+
+#header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #f0dcd2;
+    overflow: auto;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    padding: 0 15px;
+    z-index: 9997;
+}
+
+#header .profile img{
+    margin: 15px auto;
+    display: block;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#header .profile h1{
+    font-size: 25px;
+    font-family: 'Nothing You Could Do', cursive;
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(65, 64, 64);
+}
+
+#header .profile .social-link a{
+    font-size: 1.5rem;
+    color: #b66f4c;
+    padding: 0.6rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#header .profile .social-link a:hover{
+    color: #663922;
+}
+
+.nav-menu{
+    padding: 1.5rem;
+}
+
+.nav-menu a,
+.nav-menu a:focus{
+    display: flex;
+    align-items: center;
+    color: #864b2d;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.nav-menu a i,
+.nav-menu a:focus i{
+    font-size: 24px;
+    padding-right: 0.8rem;
+    color: #b66f4c;
+}
+
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover > a{
+    text-decoration: none;
+    color: #954f42;
+}
+
+.nav-menu a:hover i,
+.nav-menu .active i,
+.nav-menu .active:focus i,
+.nav-menu li:hover > a i{
+    color: #7c200a;
+}
+
+#main{
+    margin-left: 300px;
+}
+
+section#inicio{
+    background-image: url("./img/livro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+section#inicio h2{
+    font-size: 4.3rem;
+}
+
+section#inicio span#subtitle{
+    margin-right: 8rem;
+    font-size: 1.6rem;
+}
+
+.text-shadow{
+    text-shadow: 4px 4px 10px #000;
+}
+
+selection#inicio dev#arraste{
+    width: 9rem;
+}
+
+selection#inicio dev#arraste a {
+    text-decoration: none;
+    color: #fff;
+}
