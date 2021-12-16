@@ -14,7 +14,7 @@ html, body{
     left: 0;
     top: 0;
     bottom: 0;
-    background: #f5e0ce;
+    background: #e9d3ca;
     overflow: auto;
     width: 250px;
     transition: all ease-in-out 0.5s;
@@ -41,7 +41,7 @@ html, body{
 
 #header .profile .social-link a{
     font-size: 1.5rem;
-    color: #b66f4c;
+    color: #b1775e;
     padding: 0.6rem;
     margin-right: 1rem;
     border-radius: 50%;
@@ -202,7 +202,7 @@ i.menu-mobile{
 }
 
 *::-webkit-scrollbar-thumb{
-    background-color: rgb(175, 116, 105);
+    background-color: #9e8980;
 }
 
 .section-bg{
@@ -210,8 +210,33 @@ i.menu-mobile{
 }
 
 .progress-bar{
-    background-color: #cea38d;
-    color: #2b1307;
+    background-color: #9e8980;
+    color: #fff;
 }
 
+.cv .cv-title{
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #4d413b;
+}
+
+.cv .cv-item{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #bea08f;
+    position: relative;
+}
+
+.cv .cv-item::before{
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #bea08f;
+    background: #fff;
+    border-radius: 50px;
+}
 
