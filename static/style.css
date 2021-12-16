@@ -182,4 +182,25 @@ i.menu-mobile{
 
 }
 
+.center-justified{
+    text-align: justify;
+    
+}
 
+.resumo{
+    text-align: justify;
+}
+
+*::-webkit-scrollbar{
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track{
+    width: 12px;
+    box-shadow: inset 0 0 .3rem #c07a7a;
+    background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: rgb(175, 116, 105);
+}
