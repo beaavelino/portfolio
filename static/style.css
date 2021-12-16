@@ -14,7 +14,7 @@ html, body{
     left: 0;
     top: 0;
     bottom: 0;
-    background: #f0dcd2;
+    background: #f5e0ce;
     overflow: auto;
     width: 250px;
     transition: all ease-in-out 0.5s;
@@ -204,3 +204,14 @@ i.menu-mobile{
 *::-webkit-scrollbar-thumb{
     background-color: rgb(175, 116, 105);
 }
+
+.section-bg{
+    background-color: #f5ede9d2;
+}
+
+.progress-bar{
+    background-color: #cea38d;
+    color: #2b1307;
+}
+
+
